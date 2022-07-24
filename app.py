@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 
 st.header('''
-This is an Streamlit app Demo''')
+This is a Streamlit app Demo''')
 
-st.subheader('Use case: Addition of Two numbers')
+st.subheader('Addition of Two numbers')
 
 def user_input():
   first_num = st.number_input('Enter First Number')
